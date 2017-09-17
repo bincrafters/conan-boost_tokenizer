@@ -1,1 +1,1 @@
-conan upload --all --remote bincrafters Boost.Tokenizer/1.64.0@bincrafters/testing
+conan upload --all --remote bincrafters Boost.Tokenizer/1.65.1@bincrafters/testing
