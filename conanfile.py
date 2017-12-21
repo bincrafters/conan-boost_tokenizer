@@ -3,14 +3,14 @@ from conans import ConanFile
 
 class BoostTokenizerConan(ConanFile):
     name = "Boost.Tokenizer"
-    version = "1.65.1"
+    version = "1.66.0"
 
     requires = \
-        "Boost.Assert/1.65.1@bincrafters/testing", \
-        "Boost.Config/1.65.1@bincrafters/testing", \
-        "Boost.Iterator/1.65.1@bincrafters/testing", \
-        "Boost.Mpl/1.65.1@bincrafters/testing", \
-        "Boost.Throw_Exception/1.65.1@bincrafters/testing"
+        "Boost.Assert/1.66.0@bincrafters/testing", \
+        "Boost.Config/1.66.0@bincrafters/testing", \
+        "Boost.Iterator/1.66.0@bincrafters/testing", \
+        "Boost.Mpl/1.66.0@bincrafters/testing", \
+        "Boost.Throw_Exception/1.66.0@bincrafters/testing"
 
     lib_short_names = ["tokenizer"]
     is_header_only = True
@@ -18,9 +18,9 @@ class BoostTokenizerConan(ConanFile):
     # BEGIN
 
     url = "https://github.com/bincrafters/conan-boost-tokenizer"
-    description = "Please visit http://www.boost.org/doc/libs/1_65_1"
+    description = "Please visit http://www.boost.org/doc/libs/1_66_0"
     license = "www.boost.org/users/license.html"
-    build_requires = "Boost.Generator/1.65.1@bincrafters/testing"
+    build_requires = "Boost.Generator/1.66.0@bincrafters/testing"
     short_paths = True
     exports = "boostgenerator.py"
 
