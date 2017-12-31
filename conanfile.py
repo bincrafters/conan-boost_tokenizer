@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostTokenizerConan(ConanFile):
     name = "boost_tokenizer"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-tokenizer"
+    url = "https://github.com/bincrafters/conan-boost_tokenizer"
 
     lib_short_names = ["tokenizer"]
     is_header_only = True
